@@ -1,0 +1,105 @@
+[
+    {
+        "access_level": "student",
+        "book_issued": ["B002","B003"
+        ],
+        "course": "BCT",
+        "id": "078BCT032",
+        "name": "Purushottam Gajurel",
+        "part": "1",
+        "password": "1234",
+        "roll": "078BCT032",
+        "year": "2"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+        ],
+        "course": "BCT",
+        "id": "078BCT027",
+        "name": "Pabin Khanal",
+        "part": "1",
+        "password": "1234",
+        "roll": "078BCT027",
+        "year": "2"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+        ],
+        "course": "BCT",
+        "id": "078BCT024",
+        "name": "Neha Shah",
+        "part": "1",
+        "password": "1234",
+        "roll": "078BCT024",
+        "year": "2"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+        ],
+        "course": "BCT",
+        "id": "078BCT031",
+        "name": "Raj Shimkhada",
+        "part": "2",
+        "password": "1234",
+        "roll": "078BCT031",
+        "year": "1"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+        ],
+        "course": "bei",
+        "id": "079BEI035",
+        "name": "R.P Chaudhary",
+        "part": "2",
+        "password": "1234",
+        "roll": "079BEI035",
+        "year": "1"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+            "B002",
+            "B003"
+        ],
+        "course": "BCT",
+        "id": "078BCT036",
+        "name": "Roshan Thapa",
+        "part": "2",
+        "password": "1234",
+        "roll": "078BCT036",
+        "year": "2"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+            "B009"
+        ],
+        "course": "BCT",
+        "id": "078BCT038",
+        "name": "Sameer Shrestha",
+        "part": "2",
+        "password": "1234",
+        "roll": "078BCT038",
+        "year": "1"
+    },
+    {
+        "access_level": "student",
+        "book_issued": [
+            "b004",
+            "B005",
+            "B006",
+            "B007"
+        ],
+        "course": "BXX",
+        "id": "",
+        "name": "The Void",
+        "part": "2",
+        "password": "",
+        "roll": "",
+        "year": "1"
+    }
+]
