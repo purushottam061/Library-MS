@@ -29,7 +29,7 @@
 background-color: rgb(46, 52, 54);</string>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>2</number>
      </property>
      <widget class="QWidget" name="page_detail">
       <layout class="QGridLayout" name="gridLayout_2">
@@ -85,7 +85,7 @@ background-color: rgb(46, 52, 54);</string>
             <string notr="true">color: rgb(238, 238, 236);</string>
            </property>
            <property name="text">
-            <string>Name is ginna be here0000</string>
+            <string>Name </string>
            </property>
           </widget>
          </item>
@@ -100,7 +100,7 @@ background-color: rgb(46, 52, 54);</string>
             <string notr="true">color: rgb(238, 238, 236);</string>
            </property>
            <property name="text">
-            <string>Roll no.</string>
+            <string>Roll No</string>
            </property>
           </widget>
          </item>
@@ -115,7 +115,7 @@ background-color: rgb(46, 52, 54);</string>
             <string notr="true">color: rgb(238, 238, 236);</string>
            </property>
            <property name="text">
-            <string>BEI</string>
+            <string>Course</string>
            </property>
           </widget>
          </item>
@@ -222,7 +222,6 @@ background-color: rgb(46, 52, 54);</string>
          <property name="font">
           <font>
            <pointsize>20</pointsize>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -274,8 +273,15 @@ background-color: rgb(46, 52, 54);</string>
           <cursorShape>ArrowCursor</cursorShape>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(243, 243, 243);
-background-color: rgb(46, 52, 54);</string>
+          <string notr="true">QHeaderView::section
+{
+spacing: 10px;
+background-color:rgb(46, 52, 54);
+color: white;
+margin: 1px;
+text-align: right;
+}
+QTableCornerButton::section { background-color:rgb(46, 52, 54); }</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::NoFrame</enum>
@@ -298,9 +304,6 @@ background-color: rgb(46, 52, 54);</string>
          <row>
           <property name="text">
            <string>1</string>
-          </property>
-          <property name="textAlignment">
-           <set>AlignLeading|AlignVCenter</set>
           </property>
          </row>
          <column>
@@ -328,6 +331,29 @@ background-color: rgb(46, 52, 54);</string>
            <string>Fine</string>
           </property>
          </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="background">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>59</red>
+             <green>64</green>
+             <blue>66</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>255</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
         </widget>
        </item>
        <item row="1" column="3">
@@ -348,7 +374,6 @@ background-color: rgb(46, 52, 54);</string>
          <property name="font">
           <font>
            <pointsize>20</pointsize>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -372,6 +397,9 @@ background-color: rgb(46, 52, 54);</string>
       <layout class="QGridLayout" name="gridLayout_4">
        <item row="2" column="3">
         <widget class="QPushButton" name="pushButton_search">
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>Search</string>
          </property>
@@ -382,7 +410,6 @@ background-color: rgb(46, 52, 54);</string>
          <property name="font">
           <font>
            <pointsize>22</pointsize>
-           <weight>75</weight>
            <bold>true</bold>
           </font>
          </property>
@@ -414,6 +441,20 @@ background-color: rgb(255, 255, 255);</string>
        </item>
        <item row="3" column="1" colspan="3">
         <widget class="QTableWidget" name="tableWidget_show_result">
+         <property name="autoFillBackground">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QHeaderView::section
+{
+spacing: 10px;
+background-color:rgb(46, 52, 54);
+color: white;
+margin: 1px;
+text-align: right;
+}
+QTableCornerButton::section { background-color:rgb(46, 52, 54); }</string>
+         </property>
          <property name="sizeAdjustPolicy">
           <enum>QAbstractScrollArea::AdjustToContents</enum>
          </property>
